@@ -8,6 +8,9 @@ function summarizeUser(userName, userAge, userHasHobby){
     userName + 
     ', age is ' +
     userAge +
-    ''
-  }
+    ' and the user has hobbies: ' +
+    userHasHobby
+  };
 }
+
+console.log(summarizeUser(name, age, hasHobbies));
